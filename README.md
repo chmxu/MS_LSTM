@@ -1,6 +1,6 @@
 # Learning to Score Figure Skating Videos
 
-This is the code for report 'Learning to Score Figure Skating Videos'. To run this code, you need to do as follows,
+This is the code for TCSVT paper 'Learning to Score Figure Skating Videos'. To run this code, you need to do as follows,
 
 ## Prepare the environment
 This code needs pytorch 0.4.0.
