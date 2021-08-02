@@ -34,14 +34,14 @@ class videoDataset(data.Dataset):
             fh = open(label)
             videos = []
             for line in fh.readlines():
-                video_id, tes, pcs, failure = line.strip().split(' ')
+                video_id, tes_, pcs_, failure = line.strip().split(' ')
                 video_id += suffix
-                tes = float(tes)
-                pcs = float(pcs)
+                tes_ = float(tes_)
+                pcs_ = float(pcs_)
                 if pcs:
-                    videos.append((video_id, pcs))
+                    videos.append((video_id, pcs_))
                 else:
-                    videos.append((video_id, tes))
+                    videos.append((video_id, tes_))
         self.root = root
         self.videos = videos
         self.transform = lambda x: transform(x, 300)
