@@ -10,6 +10,7 @@ This code needs pytorch 0.4.0.
 We provide the c3d feature of Fis-V videos here [Fis-V](https://drive.google.com/open?id=1UfJGT6cGwZ6Xps0B6N9_Ov5JapTFLF3Y), you can download it and unzip the file into any directory. The corresponding anotations are in ```./data```.
 
 **The raw videos have been uploaded. You can download them from here [Fis-V](https://drive.google.com/file/d/1FQ0-H3gkdlcoNiCe8RtAoZ3n7H1psVCI/view?usp=sharing).**
+**The c3d features can be downloaded from here [C3D feature](https://drive.google.com/file/d/1-dOeTO3knMXmjxF-iaUNiRWTOVVBKko-/view?usp=sharing)**
 
 ## Train and test PCS Score
 ```{python}
